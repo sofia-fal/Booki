@@ -145,7 +145,7 @@ input[type=text], label, .formulaire button {
     border-radius: 40px;
     font-weight: bold;
     font-size: 1em;
-    padding: 15px;
+    padding: 13px;
 }
 
 .filtres button:hover {
@@ -427,14 +427,7 @@ footer .titre {
 
 }
 
-@media (max-width: 846px) {
-    .boutons-filtres {
-        display: flex;
-        gap: 0.3vh;
-        flex-wrap: wrap;
-    }
-    
-}
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {

@@ -134,6 +134,11 @@ input[type=text], label, .formulaire button {
     gap: 1%;
 }
 
+.boutons-filtres {
+    display: flex;
+    gap: 0.7vh;
+}
+
 .filtres button {
     background-color: white;
     border: #d9d9d9 2px solid;
@@ -368,6 +373,10 @@ footer .titre {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filtres {
+        display: block;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
